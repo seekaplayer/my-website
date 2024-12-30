@@ -111,3 +111,11 @@ a {
 .linkblock p {
   font-weight: bold;
 }
+.primaryfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em 0;
+  font-size: 0.75rem;
+}
