@@ -1,0 +1,113 @@
+*,
+hmtl,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0b1925+0,34495e+100 */
+  background: linear-gradient(
+    45deg,
+    #0b1925 0%,
+    #34495e 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffff;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: normal;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.primaryheader .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.primaryheader p {
+  font-weight: bold;
+}
+.avatar {
+  max-width: 25%;
+  max-height: auto;
+  border-radius: 50%;
+  margin-top: 1.5em;
+}
+@media (max-width: 768px) {
+  .avatar {
+    max-width: 50%;
+  }
+}
+.linksection {
+  margin: 1.5em 0;
+}
+.sectionheader {
+  margin: 10px 0;
+  font-weight: thin;
+  text-align: center;
+}
+.linkblock {
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 1.125em;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.linkblock > *:nth-child(1) {
+  position: absolute;
+}
+.linkblock > *:nth-child(2) {
+  text-align: center;
+  margin: 0 auto;
+}
+.linkblock:hover {
+  background: rgb(255, 255, 255);
+  color: #222;
+  transition: all 0.3s ease;
+}
+.linkblock p {
+  font-weight: bold;
+}
